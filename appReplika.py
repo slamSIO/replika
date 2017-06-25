@@ -11,6 +11,13 @@ app = Flask( __name__ )
 def index() :
     return 'Replika - Accueil'
 
+@app.route( '/connexion' )
+def connexion() :
+    pass
+
+@app.route( '/seconnecter' )
+def seConnecter() :
+    pass
 
 if __name__ == '__main__' :
     app.run( debug = True )
